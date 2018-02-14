@@ -38,4 +38,11 @@ public class AgendaTelefonica
     public String lookupNumber(String name){        
         return agenda.get(name);
     }
+    
+    /**
+     * Imprime todas las claves de la agenda telefonica.
+     */
+    public void printAllNames(){
+        System.out.println(agenda.keySet());
+    }
 }
